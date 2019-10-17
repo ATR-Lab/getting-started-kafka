@@ -10,7 +10,9 @@ Getting started with Kafka. Instruction, tutorials, demos and reference.
 
 ## Dependencies
 
-In this tutorial we will be using Java, you will need to [Java]() on your machine
+In this tutorial we will be using Java, you will need to [Java](https://www.oracle.com/technetwork/java/javase/downloads/jdk13-downloads-5672538.html) on your machine.
+
+You may following the [link] for the Java installation tutorial.
 
 
 ## Installation
