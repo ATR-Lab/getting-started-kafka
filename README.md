@@ -17,6 +17,8 @@ You may following the [link] for the Java installation tutorial.
 
 ## Installation
 
+This tutorial is explicitly worked with Ubuntu 18.04 
+
 You can download the latest version of Kafka from this [link](https://www.apache.org/dyn/closer.cgi?path=/kafka/2.3.0/kafka_2.11-2.3.0.tgz)
 
 
