@@ -62,12 +62,12 @@ Now when you type ```kafka-topics.sh``` you should be able to see the options re
 #### NOTE: It is recommended to keep separate locations for data for Zookeeper and the logs. 
 Which is why we do the following:
 
-- Create a folder under your Kafka directory name data and another directory in data, call it zookeeper
+- Create a folder under your Kafka directory name data and another directory in data, call it zookeeper 
 
 ```
-mkdir data
+$ mkdir data
 
-mkdir data/zookeeper
+$ mkdir data/zookeeper
 ```
 
 - Under your Kafka directory and look for a file named zookeeper.properties which should be under configurations folder(Kafka/config/zookeeper.properties)
@@ -75,6 +75,12 @@ mkdir data/zookeeper
 ```
 dataDirs = /home/skywalker/Kafka/kafka_2.11-2.3.0/data/zookeeper
 
+```
+
+Create a directory in data call it kafka
+
+```
+$ mkdir data/kafka
 ```
 
 - Similarly for your Kafka logs(Kafka/config/server.properties), and look for log.dirs to your data/kafka, something like the following:
