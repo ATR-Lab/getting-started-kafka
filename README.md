@@ -52,7 +52,7 @@ sudo apt install openjdk-8-jdk
 
 You can also add the path of binaries file in the kafka folder, which is convenient way of using Kafka without going into it's directory. You can do this by following:
 
-```pwd```
+```$ pwd```
 
 ```
 export PATH=/*your pwd's result for working directory*/Kafka/bin:$Path
