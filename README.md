@@ -2,10 +2,18 @@
 Getting started with Kafka. Instruction, tutorials, demos and reference.
 
 ## Table Contents
-
+- [References](#references)
 - [Dependencies](#dependencies)
 - [Installation](#installation)
 
+
+## References
+
+Before getting started, this tutorial expects for you to have foundations and basic understanding of Kafka. Following are two resources(official documentation and notes) which can be used as a reference:
+
+- The Kafka's [official documentation](https://kafka.apache.org/documentation/)
+
+- [Google Doc](https://docs.google.com/document/d/14y4t6O9mbYQwFcNmw3bg_bvxtcLQsa9wfFJLVqAZ_VU/edit?usp=sharing), the link is for google document, you may comment on it in case if something is missing or you may want to provide more information.
 
 
 ## Dependencies
