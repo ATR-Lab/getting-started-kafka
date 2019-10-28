@@ -116,3 +116,16 @@ kafka-server-start.sh config/server.properties
 
 
 With this we have completed installation process. 
+
+### Why do we need zookeeper?
+
+Kafka's jobs are scheduled with the help of Zookeeper, in order Kafka to run, Zookeeper should be launched first.
+
+### What is the importance of the topic? Can we have multiple topics?
+
+Kafka topics are the primary place where the data is written into and read from. A topic can be used for keeping track of particular data. Let us consider there are dozens of trucks, for certain distance, the drivers of those trucks need to take a rest. You do this by tracking the their GPS which could be kept track of using topics.
+
+
+### What is the significance of producer and consumer?
+
+The Producer is one that sends the data or fair enough to say you they produce the data(I like to think it this way) and consumer is where the data is sent to. A key note to remember, your producer can be consumer too.
