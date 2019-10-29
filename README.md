@@ -20,8 +20,7 @@ Before getting started, this tutorial expects for you to have foundations and ba
 
 In this tutorial we will be using Java, you will need to [Java](https://www.oracle.com/technetwork/java/javase/downloads/jdk13-downloads-5672538.html) on your machine.
 
-You may following the [link] for the Java installation tutorial.
-
+In case if you plan to work with Java, you may follow the [link] for the Java installation tutorial.
 
 ## Installation
 
@@ -54,11 +53,18 @@ To check if you Java is working properly enter the following code of line:
 ```
 bin/kafka-topics.sh
 ```
-It should return bunch of kafa topics related commands. If not Java is not installed and you may type the following command to do it:
+It should return bunch of kafa topics related commands. If not Java is not installed and you may type the following command to do it (if you plan to work with Java):
 
 ```
 sudo apt install openjdk-8-jdk
 ```
+
+If you decided to work with Python, you may install the Kafka package
+
+```
+pip install kafka-python
+```
+
 
 You can also add the path of binaries file in the kafka folder, which is convenient way of using Kafka without going into it's directory. You can do this by following:
 
