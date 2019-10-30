@@ -1,5 +1,5 @@
 # Getting Started with Kafka
-Getting started with Kafka. Instruction, tutorials, demos and reference.
+Getting started with Kafka. Instruction, tutorials, demos and reference. In this tutorial we will look at the foundations of the Kafka.
 
 ## Table Contents
 - [References](#references)
