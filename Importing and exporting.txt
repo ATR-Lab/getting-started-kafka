@@ -1,0 +1,21 @@
+
+
+
+
+###Creating your test file
+
+echo -e "foo\nthis\nis\KAFKA!" > testing.txt
+
+### Setup connector in standalone mode pass in connection properties config then file connection config then file sync config (serialization)  all configs here ship w/ Kafka and act as templates
+connect-standalone.sh config/connect-standalone.properties config/connect-file-source.properties config/connect-file-sink.properties
+
+# Once the above connector starts running, it will read test.txt
+# and write to test.sink.txt
+# We can see this by reading the contents of the file
+cat test.sink.txt
+
+# To see the data in the consumer run the following
+kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic connect-test --from-beginning
+
+# In a separate terminal window, add some lines to the file
+echo "Another line" >> test.txt
