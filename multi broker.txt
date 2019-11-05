@@ -1,0 +1,40 @@
+
+## In this tutorial, we try to achieve and setup multi brokers
+
+
+### Create config files for each new broker
+
+config/server.properties config/server-1.properties
+
+
+# Update the following properties in the new files
+config/server-1.properties:
+    broker.id=1
+    listeners=PLAINTEXT://:9093
+    log.dir=/tmp/kafka-logs-1
+
+config/server.properties config/server-2.properties
+
+config/server-2.properties:
+    broker.id=2
+    listeners=PLAINTEXT://:9094
+    log.dir=/tmp/kafka-logs-2
+
+### Start the two new nodes in separate termial windows
+
+### Keep your Zookeeper running
+
+kafka-server-start.sh config/server-1.properties 
+
+kafka-server-start.sh config/server-2.properties 
+
+
+### You can setup more replication factor under multiple brokers
+
+kafka-topics.sh --zookeeper 127.0.0.2181 --topic kafka_topic_multi --create --parition 3 replication factor 2
+ 
+
+### To check the replication factor
+kafka-topics.sh --zookeeper localhost:2181 --topic kafka_topic_multi --describe 
+
+
