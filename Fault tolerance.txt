@@ -1,0 +1,16 @@
+
+## Fault Torelance
+
+### In Kafka when the data is written to offsets, Kafka commits after reading certain bytes
+### i.e from the offsets
+
+### For instance running the Kafka Producer
+
+```kafka-console-producer.sh --broker-list 127.0.0.1:9092 --topic kafka_topic```
+
+Write some messages into your producer and after terminating your producer start your consumer 
+you can still look at the data being sent to consumer
+
+
+```kafka-console-consumer.sh --bootstrap-server 127.0.0.1:9092 --topic kafka_topic```
+
