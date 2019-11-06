@@ -15,6 +15,8 @@ Before getting started, this tutorial expects for you to have foundations and ba
 
 - [Google Doc](https://docs.google.com/document/d/14y4t6O9mbYQwFcNmw3bg_bvxtcLQsa9wfFJLVqAZ_VU/edit?usp=sharing), the link is for google document, you may comment on it in case if something is missing or you may want to provide more information.
 
+- [Google Slides](https://docs.google.com/presentation/d/1q0zKlpdPXW-DoSF4IOLIzk8L4Y3_fYQStqg4c_-9fKg/edit?usp=sharing), the provided link is personal made google slides for the tutorial.
+
 
 ## Dependencies
 
