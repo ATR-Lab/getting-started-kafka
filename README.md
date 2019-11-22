@@ -22,7 +22,7 @@ Before getting started, this tutorial expects for you to have foundations and ba
 
 In this tutorial we will be using Java, you will need to [Java](https://www.oracle.com/technetwork/java/javase/downloads/jdk13-downloads-5672538.html) on your machine.
 
-In case if you plan to work with Java, you may follow the [link] for the Java installation tutorial.
+In case if you plan to work with Java, you may follow the [link](https://www.digitalocean.com/community/tutorials/how-to-install-java-with-apt-on-ubuntu-18-04) for the Java installation tutorial.
 
 ## Installation
 
