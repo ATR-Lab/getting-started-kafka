@@ -142,7 +142,7 @@ The Producer is one that sends the data or fair enough to say you they produce t
 
 ## Tutorial
 
-The tutorial file commands can be executed any order, however, I would recommend the following for better understanding:
+The tutorial file commands can be executed any order(on certain conditions), however, I would recommend the following for better understanding:
 
 - producer and consumer
 - multi broker
