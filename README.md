@@ -5,6 +5,7 @@ Getting started with Kafka. Instruction, tutorials, demos and reference. In this
 - [References](#references)
 - [Dependencies](#dependencies)
 - [Installation](#installation)
+- [Tutorial](#tutorial)
 
 
 ## References
@@ -137,3 +138,17 @@ Kafka topics are the primary place where the data is written into and read from.
 ### What is the significance of producer and consumer?
 
 The Producer is one that sends the data or fair enough to say you they produce the data(I like to think it this way) and consumer is where the data is sent to. A key note to remember, your producer can be consumer too.
+
+
+## Tutorial
+
+The tutorial file commands can be executed any order, however, I would recommend the following for better understanding:
+
+- producer and consumer
+- multi broker
+- Fault tolerance.txt
+- Importing and exporting.txt
+- Stream Data Processing.txt
+
+
+
