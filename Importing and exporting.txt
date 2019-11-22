@@ -4,7 +4,7 @@
 
 ###Creating your test file
 
-echo -e "foo\nthis\nis\KAFKA!" > testing.txt
+echo -e "foo\nthis\nis\KAFKA!" > test.txt
 
 ### Setup connector in standalone mode pass in connection properties config then file connection config then file sync config (serialization)  all configs here ship w/ Kafka and act as templates
 connect-standalone.sh config/connect-standalone.properties config/connect-file-source.properties config/connect-file-sink.properties
