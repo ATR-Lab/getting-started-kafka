@@ -31,10 +31,10 @@ kafka-server-start.sh config/server-2.properties
 
 ### You can setup more replication factor under multiple brokers
 
-kafka-topics.sh --zookeeper 127.0.0.2181 --topic kafka_topic_multi --create --parition 3 replication factor 2
+kafka-topics.sh --zookeeper 127.0.0.2181 --topic kafka_topic --create --parition 3 replication factor 2
  
 
 ### To check the replication factor
-kafka-topics.sh --zookeeper localhost:2181 --topic kafka_topic_multi --describe 
+kafka-topics.sh --zookeeper localhost:2181 --topic kafka_topic --describe 
 
 
